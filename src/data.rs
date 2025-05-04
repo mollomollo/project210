@@ -13,7 +13,7 @@ pub struct Listing {
     pub neighbourhood_group: String, // Borough
     pub neighbourhood: String, //Neighborhood
     pub price: u32, //Price
-    pub room_type: String, //Room type
+    pub room_type: String, //Rooming type
 }
 
 // Loads all listings from CSV file into Vec<Listing>
