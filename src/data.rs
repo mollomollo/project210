@@ -7,7 +7,7 @@ use std::io::BufReader;
 use csv::Reader;
 use serde::Deserialize;
 
-// A single Airbnb listing
+// A single Airbnb listing.
 #[derive(Debug, Deserialize)]
 pub struct Listing {
     pub neighbourhood_group: String, // Borough
